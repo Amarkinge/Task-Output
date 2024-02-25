@@ -1,0 +1,20 @@
+/* Table.css */
+
+/* Row styling */
+tr.row {
+    transition: background-color 0.3s ease;
+  }
+  
+  tr.row.selected {
+    background-color: lightblue; /* Change background color when selected */
+  }
+  
+  /* Alternating row colors */
+  tr.even {
+    background-color: #f2f2f2;
+  }
+  
+  tr.odd {
+    background-color: #e0e0e0;
+  }
+  
